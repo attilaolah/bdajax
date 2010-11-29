@@ -1,0 +1,4 @@
+include *.rst
+include src/bdajax/*.pt
+include src/bdajax/*.zcml
+include src/bdajax/resources/*
