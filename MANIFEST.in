@@ -1,4 +1,3 @@
 include *.rst
-include src/bdajax/*.pt
-include src/bdajax/*.zcml
-include src/bdajax/resources/*
+recursive-include src *
+recursive-exclude src *.pyc *.pyo

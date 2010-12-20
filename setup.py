@@ -1,19 +1,20 @@
 from setuptools import setup, find_packages
 import sys, os
 
-version = '1.0b4'
+version = '1.0.1'
 shortdesc = 'Ajax convenience.'
 longdesc = open(os.path.join(os.path.dirname(__file__), 'README.rst')).read()
+longdesc += open(os.path.join(os.path.dirname(__file__), 'LICENSE.rst')).read()
 
 setup(name='bdajax',
       version=version,
       description=shortdesc,
       long_description=longdesc,
       classifiers=[
-            'Development Status :: 4 - Beta',
+            'Development Status :: 5 - Production/Stable',
             'Environment :: Web Environment',
             'Operating System :: OS Independent',
-            'Programming Language :: Python', 
+            'Programming Language :: JavaScript', 
             'Topic :: Internet :: WWW/HTTP :: Dynamic Content',        
       ],
       keywords='',
